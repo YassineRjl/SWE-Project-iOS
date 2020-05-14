@@ -1,0 +1,45 @@
+﻿schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Bill {
+  billAmount: Float
+  billID: String
+  billPatient: String
+  billReason: String
+  insuranceName: String
+}
+
+type Consultation {
+  consultationID: String
+  consultationPrognosis: String
+  patientFirstName: String
+  patientLastName: String
+  symptoms: String
+  time: String
+}
+
+type Mutation {
+  putPost(id: ID!, title: String!): [String]
+}
+
+type Patient {
+  CIN: String
+  address: String
+  chronicDiseases: String
+  dob: String
+  emergencyContact: String
+  firstName: String
+  lastName: String
+  maritalStatus: String
+  patientID: String
+  phoneNumber: String
+  placeOfBirth: String
+}
+
+type Query {
+  getBill(placeHolder: String): [Bill]
+  getConsultation(placeHolder: String): [Consultation]
+  getPatients(placeHolder: String): [Patient]
+}

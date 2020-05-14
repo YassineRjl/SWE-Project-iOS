@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SWE_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I8M-KA-O06">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pnc-YN-Bfo" customClass="DesignableView" customModule="SWE_ios" customModuleProvider="target">
+                                <rect key="frame" x="31" y="281.5" width="352" height="245.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bAL-GW-yXU" customClass="DesignableView" customModule="SWE_ios" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="352" height="245.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1lg-Yw-YRH">
+                                                <rect key="frame" x="35.5" y="88.5" width="281.5" height="147"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j89-vo-Avl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="281.5" height="44"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="0.20000000000000001"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="17"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dxG-9r-Qzd">
+                                                        <rect key="frame" x="0.0" y="52.5" width="281.5" height="44"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="0.20000000000000001"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="17"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgI-DD-wnO" customClass="DesignableButton" customModule="SWE_ios" customModuleProvider="target">
+                                                        <rect key="frame" x="98.5" y="107.5" width="84" height="39.5"/>
+                                                        <color key="backgroundColor" red="0.17304053899999999" green="0.40429663659999998" blue="0.96475905179999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                        <state key="normal" title="Login">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="16"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                                <real key="value" value="5"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                                <real key="value" value="0.25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                                <size key="value" width="0.0" height="4.4000000000000004"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="adjustFontSizeToWidth" value="YES"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="onSigninClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ieg-qW-EEc"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="j89-vo-Avl" firstAttribute="width" secondItem="1lg-Yw-YRH" secondAttribute="width" id="5ky-Up-eDc"/>
+                                                    <constraint firstItem="j89-vo-Avl" firstAttribute="height" secondItem="1lg-Yw-YRH" secondAttribute="height" multiplier="0.3" id="UHC-dD-may"/>
+                                                    <constraint firstItem="cgI-DD-wnO" firstAttribute="width" secondItem="1lg-Yw-YRH" secondAttribute="width" multiplier="0.3" id="a7w-gq-7Gq"/>
+                                                    <constraint firstItem="dxG-9r-Qzd" firstAttribute="width" secondItem="j89-vo-Avl" secondAttribute="width" id="cwB-ao-gXF"/>
+                                                    <constraint firstItem="dxG-9r-Qzd" firstAttribute="height" secondItem="j89-vo-Avl" secondAttribute="height" id="pzc-lO-CxI"/>
+                                                    <constraint firstItem="cgI-DD-wnO" firstAttribute="height" secondItem="1lg-Yw-YRH" secondAttribute="height" multiplier="0.27" id="ve6-td-4OZ"/>
+                                                </constraints>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login in with email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="MzZ-F3-hUl">
+                                                <rect key="frame" x="18" y="8" width="317" height="58"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="1lg-Yw-YRH" firstAttribute="height" secondItem="bAL-GW-yXU" secondAttribute="height" multiplier="0.6" id="GE5-dF-E4N"/>
+                                            <constraint firstAttribute="bottom" secondItem="1lg-Yw-YRH" secondAttribute="bottom" constant="10" id="XzR-jv-zTm"/>
+                                            <constraint firstItem="1lg-Yw-YRH" firstAttribute="centerX" secondItem="bAL-GW-yXU" secondAttribute="centerX" id="Zzu-cq-XW1"/>
+                                            <constraint firstItem="1lg-Yw-YRH" firstAttribute="width" secondItem="bAL-GW-yXU" secondAttribute="width" multiplier="0.8" id="qad-50-yHx"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bAL-GW-yXU" secondAttribute="trailing" constant="0.01" id="4CM-Ks-aOQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="bAL-GW-yXU" secondAttribute="bottom" constant="0.01" id="5aw-Yn-y44"/>
+                                    <constraint firstItem="bAL-GW-yXU" firstAttribute="top" secondItem="Pnc-YN-Bfo" secondAttribute="top" constant="0.01" id="Bes-UI-Lel"/>
+                                    <constraint firstItem="bAL-GW-yXU" firstAttribute="leading" secondItem="Pnc-YN-Bfo" secondAttribute="leading" constant="0.01" id="Omp-jC-yg2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wza-z6-ug4" customClass="DesignableView" customModule="SWE_ios" customModuleProvider="target">
+                                <rect key="frame" x="103.5" y="553" width="207" height="57"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MWm-qV-TRb">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="57"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PtI-Fp-E4Y" customClass="DesignableButton" customModule="SWE_ios" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="207" height="57"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                                <state key="normal" title="Create Account">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                        <size key="value" width="0.0" height="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="adjustFontSizeToWidth" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="transitionToSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u8D-hg-x8V"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="PtI-Fp-E4Y" firstAttribute="leading" secondItem="MWm-qV-TRb" secondAttribute="leading" constant="0.01" id="4Hh-MC-N3Y"/>
+                                            <constraint firstAttribute="trailing" secondItem="PtI-Fp-E4Y" secondAttribute="trailing" constant="0.01" id="4Yt-wq-331"/>
+                                            <constraint firstItem="PtI-Fp-E4Y" firstAttribute="top" secondItem="MWm-qV-TRb" secondAttribute="top" constant="0.01" id="AWW-8j-kWg"/>
+                                            <constraint firstAttribute="bottom" secondItem="PtI-Fp-E4Y" secondAttribute="bottom" constant="0.01" id="xwc-hU-84O"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="MWm-qV-TRb" secondAttribute="trailing" constant="0.01" id="EJ5-2h-aah"/>
+                                    <constraint firstItem="MWm-qV-TRb" firstAttribute="top" secondItem="Wza-z6-ug4" secondAttribute="top" constant="0.01" id="FN1-ee-szO"/>
+                                    <constraint firstAttribute="bottom" secondItem="MWm-qV-TRb" secondAttribute="bottom" constant="0.01" id="aU5-Kz-IaB"/>
+                                    <constraint firstItem="MWm-qV-TRb" firstAttribute="leading" secondItem="Wza-z6-ug4" secondAttribute="leading" constant="0.01" id="c41-9W-boc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="4.4000000000000004"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="888" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="u0W-0B-OyU">
+                                <rect key="frame" x="145.5" y="94" width="123" height="122.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="u0W-0B-OyU" secondAttribute="height" multiplier="1:1" id="rDv-MN-xpb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoe-mn-QbA">
+                                <rect key="frame" x="15" y="832" width="384" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="bUN-r3-DbV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                <state key="normal" title="I accept the terms of service &amp; privacy policy">
+                                    <color key="titleColor" red="0.025515221559999999" green="0.025391959620000001" blue="0.0256384835" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Wza-z6-ug4" firstAttribute="width" secondItem="oct-0v-w6G" secondAttribute="width" multiplier="0.5" id="5cj-Hb-Cj3"/>
+                            <constraint firstItem="u0W-0B-OyU" firstAttribute="centerX" secondItem="oct-0v-w6G" secondAttribute="centerX" id="6AV-ks-zaQ"/>
+                            <constraint firstItem="Pnc-YN-Bfo" firstAttribute="width" secondItem="oct-0v-w6G" secondAttribute="width" multiplier="0.85" id="Fvp-Il-IuB"/>
+                            <constraint firstItem="Pnc-YN-Bfo" firstAttribute="top" secondItem="u0W-0B-OyU" secondAttribute="bottom" constant="65" id="GPg-31-cAd"/>
+                            <constraint firstItem="uoe-mn-QbA" firstAttribute="leading" secondItem="oct-0v-w6G" secondAttribute="leading" constant="15" id="JCZ-Ao-ljS"/>
+                            <constraint firstItem="Wza-z6-ug4" firstAttribute="height" secondItem="oct-0v-w6G" secondAttribute="height" multiplier="0.07" id="VCI-f5-u3P"/>
+                            <constraint firstItem="Wza-z6-ug4" firstAttribute="top" secondItem="Pnc-YN-Bfo" secondAttribute="bottom" constant="25.670000000000002" id="WWA-Ps-Fbn"/>
+                            <constraint firstItem="Wza-z6-ug4" firstAttribute="centerX" secondItem="oct-0v-w6G" secondAttribute="centerX" id="XCJ-iK-fca"/>
+                            <constraint firstItem="u0W-0B-OyU" firstAttribute="top" secondItem="oct-0v-w6G" secondAttribute="top" constant="50" id="Za6-BN-N02"/>
+                            <constraint firstItem="Pnc-YN-Bfo" firstAttribute="centerX" secondItem="oct-0v-w6G" secondAttribute="centerX" id="aq0-9c-9Yc"/>
+                            <constraint firstItem="u0W-0B-OyU" firstAttribute="height" secondItem="oct-0v-w6G" secondAttribute="height" multiplier="0.15" id="mI2-MX-ZDB"/>
+                            <constraint firstItem="oct-0v-w6G" firstAttribute="bottom" secondItem="uoe-mn-QbA" secondAttribute="bottom" constant="10" id="qgZ-di-zpg"/>
+                            <constraint firstItem="Pnc-YN-Bfo" firstAttribute="height" secondItem="oct-0v-w6G" secondAttribute="height" multiplier="0.3" id="r98-w3-Rym"/>
+                            <constraint firstAttribute="trailing" secondItem="uoe-mn-QbA" secondAttribute="trailing" constant="15" id="wFS-Qz-S3m"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="oct-0v-w6G"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailField" destination="j89-vo-Avl" id="52g-Ce-5kj"/>
+                        <outlet property="passwordField" destination="dxG-9r-Qzd" id="Gsz-mC-zvU"/>
+                        <outlet property="registerBtn" destination="PtI-Fp-E4Y" id="pJg-jU-0MC"/>
+                        <outlet property="signinBtn" destination="cgI-DD-wnO" id="1IP-Ab-nDy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="111.5" height="132"/>
+    </resources>
+</document>

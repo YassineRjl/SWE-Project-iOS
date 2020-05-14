@@ -1,0 +1,4 @@
+# this is an auto generated file. This will be overwritten
+mutation PutPost($id: ID!, $title: String!) {
+  putPost(id: $id, title: $title)
+}

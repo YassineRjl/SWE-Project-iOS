@@ -1,0 +1,35 @@
+# this is an auto generated file. This will be overwritten
+query GetBill($placeHolder: String) {
+  getBill(placeHolder: $placeHolder) {
+    billAmount
+    billID
+    billPatient
+    billReason
+    insuranceName
+  }
+}
+query GetConsultation($placeHolder: String) {
+  getConsultation(placeHolder: $placeHolder) {
+    consultationID
+    consultationPrognosis
+    patientFirstName
+    patientLastName
+    symptoms
+    time
+  }
+}
+query GetPatients($placeHolder: String) {
+  getPatients(placeHolder: $placeHolder) {
+    CIN
+    address
+    chronicDiseases
+    dob
+    emergencyContact
+    firstName
+    lastName
+    maritalStatus
+    patientID
+    phoneNumber
+    placeOfBirth
+  }
+}

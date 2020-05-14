@@ -1,0 +1,72 @@
+PODS:
+  - AppSyncRealTimeClient (1.1.6):
+    - Starscream (= 3.0.6)
+  - AWSAppSync (3.1.0):
+    - AppSyncRealTimeClient (~> 1.1)
+    - AWSCore (~> 2.13.0)
+    - ReachabilitySwift (~> 5.0.0)
+    - SQLite.swift (~> 0.12.2)
+  - AWSAuthCore (2.13.2):
+    - AWSCore (= 2.13.2)
+  - AWSCognitoIdentityProvider (2.13.2):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.13.2)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.13.2)
+  - AWSMobileClient (2.13.2):
+    - AWSAuthCore (= 2.13.2)
+    - AWSCognitoIdentityProvider (= 2.13.2)
+  - AWSUserPoolsSignIn (2.13.2):
+    - AWSAuthCore (= 2.13.2)
+    - AWSCognitoIdentityProvider (= 2.13.2)
+  - PhoneNumberKit (3.2.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.2.0)
+    - PhoneNumberKit/UIKit (= 3.2.0)
+  - PhoneNumberKit/PhoneNumberKitCore (3.2.0)
+  - PhoneNumberKit/UIKit (3.2.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - ReachabilitySwift (5.0.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - AWSAppSync
+  - AWSCore
+  - AWSMobileClient
+  - AWSUserPoolsSignIn
+  - PhoneNumberKit (~> 3.1)
+
+SPEC REPOS:
+  trunk:
+    - AppSyncRealTimeClient
+    - AWSAppSync
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSUserPoolsSignIn
+    - PhoneNumberKit
+    - ReachabilitySwift
+    - SQLite.swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  AppSyncRealTimeClient: 4a2ccdc1722750a1f4d76e216f9bfb1cf12f10de
+  AWSAppSync: 269c0f5ab575ef072c3ea91bcb14354cbc348f0c
+  AWSAuthCore: 890aaf36fa3a913a5948851a576c02456bed4c5b
+  AWSCognitoIdentityProvider: 68455a8d170bb6cd0ec17d261da0ab3d623232b0
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 8e878a5b1b99cdf3d7df0c1c86be0bfcd6294c11
+  AWSMobileClient: bdec2a26617590bd3eece9bf208005bc4682d424
+  AWSUserPoolsSignIn: 2238103c9fdd1b1a285be9086e5242dd7b398297
+  PhoneNumberKit: df411d46177d1492da84e10b6c093846dd861452
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: 2219551aff7f2bdfa2b6fb85e0e6d0bcd634dae6
+
+COCOAPODS: 1.9.1
